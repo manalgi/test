@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Button, TextField, Container } from '@mui/material';
 
-const CheerfyDisplayer: React.FC = () => {
+const CheerifyMe: React.FC = () => {
   const [inputText, setInputText] = useState<string>('');
   const [randomImage, setRandomImage] = useState<string>('');
 
@@ -29,4 +29,4 @@ const CheerfyDisplayer: React.FC = () => {
   );
 };
 
-export default CheerfyDisplayer;
+export default CheerifyMe;

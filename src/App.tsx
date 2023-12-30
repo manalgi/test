@@ -1,10 +1,10 @@
-import CheerfyDisplayer from './CheerfyDisplayer';
+import CheerifyMe from './CheerifyMe';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <CheerfyDisplayer />
+        <CheerifyMe />
       </header>
     </div>
   );
